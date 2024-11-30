@@ -52,7 +52,7 @@ app.get('/menu', (req, res) => {
   res.json(menuItems);  // Send the menu items as a JSON response
 });
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
